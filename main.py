@@ -12,6 +12,10 @@ while True:
         break
     if text == "quit":
         break
+    elif text == "history":
+        for n in data:
+        print(f"{n}:{data.get(n)}")
+	      continue
 
     try:
         result = calculate(text)
@@ -23,5 +27,5 @@ while True:
         if result == int(result):
             result = int(result)
         print(result)
-        data.append({text:result})
+        data[text]=result
         save(data)
