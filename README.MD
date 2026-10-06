@@ -14,6 +14,7 @@ A command-line calculator built with Python.
 > git clone https://github.com/void16-boop/CalcX.git
 
 2.Enter the project directory:
+>abh
 >cd CalcX
 
 3.Switch to the calculator branch:
