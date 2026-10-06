@@ -17,7 +17,7 @@ A command-line calculator built with Python.
 >cd CalcX
 
 3.Switch to the calculator branch:
->'git switch --track origin/israelolufunso96-gif-patch-1
+>'''git switch --track origin/israelolufunso96-gif-patch-1
 
 4.Run the calculator:
 >python main.py
