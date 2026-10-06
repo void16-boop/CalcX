@@ -1,5 +1,5 @@
 ## CalcX 
-A Calculator built by code studio using Python
+A command-line calculator built with Python.
 
 ## FEATURES
 - Addition 
@@ -9,14 +9,14 @@ A Calculator built by code studio using Python
 - Multiple operation at once
 
 ## HOW TO RUN 
-1.Clone the repository:
+>1.Clone the repository:
 git clone https://github.com/void16-boop/CalcX.git
 
-2.Enter the project directory:
-cd CalcX
+>2.Enter the project directory:
+>cd CalcX
 
 3.Run the calculator:
-python main.py
+>python main.py
 
 Once CalcX starts, enter a calculation at the calc> prompt.
 
