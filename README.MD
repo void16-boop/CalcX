@@ -10,15 +10,16 @@ A command-line calculator built with Python.
 
 ## HOW TO RUN 
 1.Clone the repository:
-> ```
+> ``'
 > git clone https://github.com/void16-boop/CalcX.git
 
 2.Enter the project directory:
->abh
+>'''
 >cd CalcX
 
 3.Switch to the calculator branch:
->'''git switch --track origin/israelolufunso96-gif-patch-1
+>'''
+>git switch --track origin/israelolufunso96-gif-patch-1
 
 4.Run the calculator:
 >python main.py
