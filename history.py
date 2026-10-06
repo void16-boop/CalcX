@@ -9,4 +9,4 @@ def load():
 		with open("CalcX_history.json","r") as file:
 			return json.load(file)
 	except FileNotFoundError:
-		return []
+		return {}
