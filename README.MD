@@ -16,7 +16,10 @@ A command-line calculator built with Python.
 2.Enter the project directory:
 >cd CalcX
 
-3.Run the calculator:
+3.Switch to the calculator branch:
+**git switch --track origin/israelolufunso96-gif-patch-1**
+
+4.Run the calculator:
 >python main.py
 
 Once CalcX starts, enter a calculation at the calc> prompt.
