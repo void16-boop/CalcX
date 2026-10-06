@@ -14,8 +14,8 @@ while True:
         break
     elif text == "history":
         for n in data:
-        print(f"{n}:{data.get(n)}")
-	      continue
+            print(f"{n}:{data.get(n)}")
+	          continue
 
     try:
         result = calculate(text)
