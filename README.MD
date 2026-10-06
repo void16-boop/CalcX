@@ -10,7 +10,7 @@ A command-line calculator built with Python.
 
 ## HOW TO RUN 
 1.Clone the repository:
-> "```bash"
+> ```bash
 > git clone https://github.com/void16-boop/CalcX.git
 
 2.Enter the project directory:
@@ -22,8 +22,8 @@ A command-line calculator built with Python.
 Once CalcX starts, enter a calculation at the calc> prompt.
 
 Commands
--history — view previous calculations
--quit — exit CalcX
+- history — view previous calculations
+- quit — exit CalcX
 
 ## TECHNOLOGY
 python
