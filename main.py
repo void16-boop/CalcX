@@ -15,7 +15,6 @@ while True:
     elif text == "history":
         for n in data:
             print(f"{n}:{data.get(n)}")
-
     try:
         result = calculate(text)
     except ZeroDivisionError:
