@@ -1,7 +1,8 @@
 from calculator import calculate
+from history import save,load
 
 print("Welcome To CalcX")
-
+data = load()
 while True:
     try:
         text = input("calc> ")
@@ -22,3 +23,5 @@ while True:
         if result == int(result):
             result = int(result)
         print(result)
+        data.append({text:result})
+        save(data)
