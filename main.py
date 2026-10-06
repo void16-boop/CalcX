@@ -15,7 +15,7 @@ while True:
     elif text == "history":
         for n in data:
             print(f"{n}:{data.get(n)}")
-	          continue
+			continue
 
     try:
         result = calculate(text)
