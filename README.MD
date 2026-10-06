@@ -10,7 +10,7 @@ A command-line calculator built with Python.
 
 ## HOW TO RUN 
 1.Clone the repository:
-> ```bash
+> ```
 > git clone https://github.com/void16-boop/CalcX.git
 
 2.Enter the project directory:
