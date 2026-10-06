@@ -1,7 +1,6 @@
 from operator import sub
 
-MINUS = chr(45)
-OPERATORS = ["+", "*", "/", MINUS]
+OPERATORS = ["+", "*", "/", "-"]
 
 
 def split_into_tokens(text):
@@ -14,8 +13,8 @@ def split_into_tokens(text):
             number = number + character
         elif character in OPERATORS:
             if number == "":
-                if character == MINUS:
-                    number = MINUS
+                if character == "-" or character == "+":
+                    number = character
                 else:
                     raise ValueError("Bad expression")
             else:
